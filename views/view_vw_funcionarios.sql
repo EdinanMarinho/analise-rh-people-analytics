@@ -1,3 +1,4 @@
+-- Atualizada VIEW para trazer a Faixa Etaria
 ALTER VIEW vw_funcionarios
 AS
 SELECT CodFuncionário               AS CodFuncionario
