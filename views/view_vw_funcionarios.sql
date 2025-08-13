@@ -18,4 +18,11 @@ SELECT CodFuncionário               AS CodFuncionario
 		    THEN 'Demitido'
 			ELSE 'Ativo'
 	   END                          AS Status          
+	 , CASE 
+		WHEN DATEDIFF(year, DataNascimento, GETDATE()) <= 24 THEN '15 a 24 anos'
+		WHEN DATEDIFF(year, DataNascimento, GETDATE()) <= 34 THEN '25 a 34 anos'
+		WHEN DATEDIFF(year, DataNascimento, GETDATE()) <= 44 THEN '35 a 44 anos'
+		WHEN DATEDIFF(year, DataNascimento, GETDATE()) <= 54 THEN '45 a 54 anos'
+		ELSE '55 +'
+	   END                          AS FaixaEtaria
   FROM Funcionarios
