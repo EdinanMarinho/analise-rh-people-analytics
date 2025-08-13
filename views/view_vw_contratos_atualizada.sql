@@ -1,4 +1,3 @@
--- Atualizada VIEW para trazer o Tipo Afastamento
 ALTER VIEW vw_contratos
 AS
 SELECT CodFuncionário                      AS CodFuncionario
@@ -30,7 +29,7 @@ SELECT CodFuncionário                      AS CodFuncionario
 		 WHEN CodCausaAfastamento = 14  THEN 'Ativo'
 		 WHEN CodCausaAfastamento = 1   THEN 'Passivo'
 		 WHEN CodCausaAfastamento = 2   THEN 'Passivo'
-		 WHEN CodCausaAfastamento = 3   THEN 'Passivo'
+		 WHEN CodCausaAfastamento = 13  THEN 'Passivo'
 		 ELSE 'Espontâneo'
 	  END                                  AS TipoAfastamento
 	 , CausaAfastamento                    AS CausaAfastamento
