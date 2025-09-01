@@ -7,4 +7,4 @@ No passado, o RH tinha um papel predominantemente operacional e administrativo, 
 Com o avanço do People Analytics, o RH passa a atuar de forma estratégica e orientada por dados, utilizando técnicas de coleta, organização e análise de informações sobre os profissionais da empresa. Esse processo possibilita identificar padrões, apoiar decisões relacionadas à gestão de talentos, fortalecer o desenvolvimento organizacional e alinhar pessoas aos objetivos do negócio, tornando o RH um verdadeiro parceiro na geração de valor e vantagem competitiva.
 
 ### Metadados
-Acesse aqui.
+"[Acesse aqui](https://docs.google.com/spreadsheets/d/e/2PACX-1vTL6iXB-7ffubEPUgNa0J4XMrtGhlkLBWnv2xUr_--4vowtEMrXO5znAtp6uklnDbK5P5IJzxz-CB6W/pubhtml?gid=0&single=true)" as informações das tabelas utilizadas. 
